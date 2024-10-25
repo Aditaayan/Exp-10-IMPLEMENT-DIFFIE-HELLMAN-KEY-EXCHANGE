@@ -1,7 +1,11 @@
 # Exp-10-IMPLEMENT-DIFFIE-HELLMAN-KEY-EXCHANGE
+
 ## AIM:
+
 To implement the Diffie-Hellman Key Exchange algorithm using C language.
+
 ## ALGORITHM:
+
 ### Step 1: 
 Both Alice and Bob shares the same public keys g and p. 
 ### Step 2: 
@@ -16,7 +20,7 @@ Similarly Bob also selects a public key b and computes his secret key as B and s
 Now both of them compute their common secret key as the other one’s secret key power of a mod p.
 
 ## PROGRAM:
-```c
+```
 #include <stdio.h>
 
 
@@ -78,7 +82,8 @@ int main() {
 }
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/6b00cd61-ed11-4e3f-8ddd-d7ef1d798d22)
+
+![image](https://github.com/user-attachments/assets/0f401538-c671-4367-a177-f758bbb6a6d9)
 
 
 ## Result:
